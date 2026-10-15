@@ -40,7 +40,7 @@ export async function loginUser(email, password) {
 }
 
 export async function getCurrentUser(token) {
-  const response = await fetch(`${API_BASE_URL}/users/me`, {
+  const response = await fetch(`${API_BASE_URL}/api/users/me`, {
     method: "GET",
     headers: {
       Authorization: `Bearer ${token}`,
