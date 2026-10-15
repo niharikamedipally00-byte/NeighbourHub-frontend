@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "https://neighbourhub-backend-uns0.onrender.com";
 
 export async function registerUser(userData) {
   const response = await fetch(`${API_BASE_URL}/auth/register`, {

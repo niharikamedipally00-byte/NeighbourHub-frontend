@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://neighbourhub-backend-uns0.onrender.com";
 
 function ServiceProviderDashboard() {
   const navigate = useNavigate();

@@ -70,7 +70,7 @@ function CustomerDashboard() {
       }
 
       const response = await fetch(
-        "http://localhost:8080/api/cart",
+        "https://neighbourhub-backend-uns0.onrender.com/api/cart",
         {
           method: "POST",
           headers: {
@@ -329,8 +329,6 @@ function CustomerDashboard() {
             </span>
           </button>
 
-
-          {/* WISHLIST */}
 
           <button
             type="button"

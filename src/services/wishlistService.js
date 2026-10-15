@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/api/wishlist";
+const API_URL = "https://neighbourhub-backend-uns0.onrender.com";
 
 function getToken() {
   return localStorage.getItem("neighbourhub_token");

@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080";
+const API_URL = "Vhttps://neighbourhub-backend-uns0.onrender.com";
 
 export async function getCart(token) {
   const response = await fetch(

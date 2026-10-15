@@ -9,7 +9,7 @@ import {
   removeFromWishlist,
 } from "../../services/wishlistService";
 
-const API_URL = "http://localhost:8080/api";
+const API_URL = "https://neighbourhub-backend-uns0.onrender.com";
 
 function Explore() {
   const navigate = useNavigate();

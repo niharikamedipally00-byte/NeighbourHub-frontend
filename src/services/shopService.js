@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080";
+const API_URL = "https://neighbourhub-backend-uns0.onrender.com";
 
 export async function getAllShops(token) {
   const response = await fetch(`${API_URL}/api/shops`, {

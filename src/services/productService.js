@@ -19,7 +19,7 @@ export async function getAllProducts(token) {
 
   return data;
 }
-const API_URL = "http://localhost:8080";
+const API_URL = "https://neighbourhub-backend-uns0.onrender.com";
 
 export async function getProductsByShop(shopId, token) {
   const response = await fetch(
