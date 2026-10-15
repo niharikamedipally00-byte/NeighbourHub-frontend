@@ -1,7 +1,7 @@
 const API_BASE_URL = "https://neighbourhub-backend-uns0.onrender.com";
 
 export async function registerUser(userData) {
-  const response = await fetch(`${API_BASE_URL}/auth/register`, {
+  const response = await fetch(`${API_BASE_URL}/api/auth/register`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -19,7 +19,7 @@ export async function registerUser(userData) {
 }
 
 export async function loginUser(email, password) {
-  const response = await fetch(`${API_BASE_URL}/auth/login`, {
+  const response = await fetch(`${API_BASE_URL}/api/auth/login`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
